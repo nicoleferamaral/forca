@@ -1,0 +1,64 @@
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+  
+}
+
+header{
+    padding: 40px 4%;
+
+ }
+.inter{
+    background-color: hsl(227, 90%, 31%);
+    justify-content: space-between; 
+    position:fixed; 
+    width: 100%;
+    z-index: 1000;
+    margin: 30;
+    padding: 30;
+
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    transition-timing-function: cubic-bezier(.2, 0, .38, .9);
+    transition-duration: .15s;
+   
+}
+
+.titulo{
+    margin-top: 10%;
+}
+
+header a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color:  hsla(236, 100%, 82%, 0.301);
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+    text-align: center;
+    margin-left: 10%;
+
+}
+
+
+  
+  /* Aplica a transição suave para a rolagem */
+  html {
+    scroll-behavior: smooth;
+  }
